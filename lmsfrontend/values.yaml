@@ -14,7 +14,7 @@ image:
 # Service Configuration
 service:
   type: LoadBalancer  # Correct capitalization
-  port: 8080
+  port: 8085
   targetPort: http # Ensure this matches the named port in deployment.yaml
 
 # Resource Requests and Limits
